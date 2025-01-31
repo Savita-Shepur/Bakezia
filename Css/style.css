@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-body{
+    background-color: black;
+}
+
+.hero-section{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../Images/illustration/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+.custom-nav {
+    position: absolute;
+    top: -300px; /* Initially hide it above */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Background for visibility */
+    transition: top 0.3s ease-in-out;
+    z-index: 1000; /* Ensures it's above everything */
+  }
+  
+  .navbar-toggler[aria-expanded="true"] + .custom-nav {
+    top: 100%; /* Moves it above the navbar when menu opens */
+  }
+  
+
+.parisienne 
+{ 
+    font-family: 'Parisienne', cursive; 
+}
+
+.great-vibes
+ {
+     font-family: 'Great Vibes', cursive;
+     }
+
+     .playfair 
+     { 
+        font-family: 'Playfair Display', serif; 
+    }
+    .pacifico { font-family: 'Pacifico', cursive; }
+.lobster { font-family: 'Lobster', cursive; }
+.cookie { font-family: 'Cookie', cursive; }
+
+/* Minimal & Modern Fonts */
+.montserrat { font-family: 'Montserrat', sans-serif; }
+.poppins { font-family: 'Poppins', sans-serif; }
+.quicksand { font-family: 'Quicksand', sans-serif; }
+
+
+.testimonial1{
+    border: 1px solid grey;
+    border-radius: 20px 0px 20px 0px;
+}
+
+
