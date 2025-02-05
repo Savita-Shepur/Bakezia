@@ -76,3 +76,33 @@
 }
 
 
+.image1{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image2{
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image3 {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Zoom In Effect */
+.image1:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Zoom Out Effect */
+.image2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Rotate & Zoom Effect */
+.image3:hover {
+    transform: scale(0.9) rotate(0deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
